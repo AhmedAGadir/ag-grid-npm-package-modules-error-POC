@@ -28,15 +28,32 @@ $ npm start
 
 
 
-
+======
+======
 
 after making changes to the dummy-module
+
+
 cd into dummy-react-npm-module-master
+
+
 delete compiled index.js file
+
+
 $ npm run build
+
+
 cd into root
+
+
 cd into dummy-app
+
+
 $ yarn remove dummy-react-npm-module
+
+
 $ yarn add REACT_MODULE_PATH
+
+
 $ npm start
 
